@@ -23,7 +23,7 @@ for module in modules:
                 results[module]=score
                 break
             print(" [!] score must be between 0 and 100.")
-        except error:
+        except ValueError:
             print(" [!] invalid input. enter numeric value (eg,75..).")
 
 print("\n---RESULT SUMMARY---")
